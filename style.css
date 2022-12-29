@@ -1,0 +1,83 @@
+:root{
+    --color-bg : #E6DDC4;
+    --color-bg-primary : #F0E9D2;
+    --color-content : #181D31;
+    --color-content-primary : #678983;
+    --color-btn: #FF6E31;
+}
+
+body{
+     margin: 0px;
+}
+.nav-container{
+    width: 100%;
+    height: 75px;
+    background-color: var(--color-content);
+    margin-top: 0px;
+    position: fixed;
+   z-index: 4;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   margin: 0 30rem;
+   
+   
+}
+.nav-container img{
+    width: 40x;
+    height: 50px;
+    position: absolute;
+    margin-left: 4rem;
+    margin: 0.7rem 8rem;
+    border-radius: 2rem;
+
+}
+.navbar a{
+    
+    margin-top: 1.5rem;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--color-content-primary);
+}
+.navbar a:hover{
+    color: white;
+    cursor: pointer;
+    transition: calc(2s);
+}
+.home-container{
+    width: 100%;
+    height: 100vh;
+}
+.home-first{
+   
+    padding: 7rem;
+    background-color: var(--color-content-primary);
+}
+.first{
+    
+    margin-left: 4rem;
+    width: max-content;
+    color: white;
+}
+.first p a{
+    text-decoration: none;
+    color: var(--color-content);
+}
+.first h1{
+    font-size: 40px;
+}
+.btn-capt{
+    width: 300px;
+    height: 30px;
+    border-radius: 2rem;
+    border: 0px;
+    background-color: var(--color-btn);
+    
+}
+.btn-capt a{
+    text-decoration: none;
+    color: white;
+}
