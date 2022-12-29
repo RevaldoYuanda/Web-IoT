@@ -8,6 +8,7 @@
 
 body{
      margin: 0px;
+     font-family: sans-serif;
 }
 .nav-container{
     width: 100%;
@@ -80,4 +81,83 @@ body{
 .btn-capt a{
     text-decoration: none;
     color: white;
+}
+.home-last{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    margin: auto;
+    gap: 1rem;
+}
+.row{
+    margin-top: 2rem;
+    border: 1px solid black;
+    height: 200px;
+
+    padding: 1rem;
+    cursor: pointer;
+}
+.row img{
+   margin:  0 6rem;
+    
+}
+
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+.about-container div{
+    padding-top: 9rem;
+    padding-bottom: 0px;
+    
+   
+}
+.about img{
+    display: flex;
+    margin: auto;
+}
+.project{
+    padding: 9rem;
+    text-align: center;
+}
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: auto;
+}
+.rowp{
+    width: 400px;
+    height: 400px;
+    border-radius: 2rem;   
+    text-align: justify;
+}
+.rowp:hover{
+    background-color: var(--color-bg);
+    color: var(--color-btn);
+    cursor: pointer;
+    transition: calc(1s);
+}
+.rowp a{
+    text-decoration: none;
+    color: black;
+}
+.rowp a:hover{
+    color: var(--color-btn);
+}
+.rowp img{
+    border-radius: 1rem;
+    width: 400px;
+    height: 200px;
+}
+.rowp h2{
+    text-align: center;
 }
